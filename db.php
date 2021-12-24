@@ -1,8 +1,8 @@
  <?php
-    $servername = "localhost:3306";
-    $username = "root";
+    $servername = "localhost";
+    $username = "xyruscod_padmin";
     $password = "";
-    $dbname = "proauctions";
+    $dbname = "xyruscod_pa";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
