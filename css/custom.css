@@ -1,0 +1,113 @@
+/* Any custom CSS you would like to specify for your site can go here. */
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-brand {
+    margin-left: auto;
+}
+
+.main_content {
+    min-height: 500px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+/* design for date/time selection box in create auction */
+
+.daterangepicker {
+    border: 1px solid black;
+    -webkit-box-shadow: 6px -6px 0px -1px rgba(171, 171, 171, 0.43);
+    box-shadow: 6px -6px 0px -1px rgba(171, 171, 171, 0.43);
+}
+
+
+/* additional editor for date/time box */
+
+.daterangepicker.drop-up::before {
+    border-top: 7px solid black;
+}
+
+
+/*hide the button Clear image and display once image is selected. Hide again if image cleared */
+
+.clear_me {
+    display: none;
+}
+
+#frame {
+    display: none;
+}
+
+.browse_display li {
+    border: 0.5px solid #909090;
+    margin-top: 10px;
+    border-top-width: 1px!important;
+}
+
+.browse_display li:hover {
+    background-color: #E0E0E0;
+    color: black;
+    cursor: pointer;
+}
+
+.results {
+    color: #6f7377;
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: none;
+}
+
+.active_link {
+    color: rgba(255, 255, 255, .75)!important;
+}
+
+.top_bar .active_link {
+    color: black!important;
+    border: 1px solid #a8acaf!important;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 8px -2px rgba(0, 0, 0, 0.69);
+    box-shadow: 5px 5px 8px -2px rgba(0, 0, 0, 0.69);
+}
+
+.logg {
+    color: white!important;
+    margin-left: 15px;
+    padding: 10px 24px;
+}
+
+.prof {
+    color: white!important;
+    margin-left: 15px;
+    background-color: rgb(123, 123, 124)!important;
+    border: 1px solid rgb(122, 112, 112)!important;
+}
+
+.prof:hover {
+    background-color: rgb(170, 171, 172)!important;
+}
+
+.seller_fields {
+    display: none;
+}
+
+.itemDescription {
+    text-align: left;
+}
+
+.bid_history_header {
+    border: 1.7px solid #2e3236;
+}
+
+.bid_table {
+    border: 1.7px solid #2e3236;
+}
+
+#watch_nowatch {
+    margin-top: -100px;
+}
